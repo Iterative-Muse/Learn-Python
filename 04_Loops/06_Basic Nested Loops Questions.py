@@ -89,8 +89,8 @@ N N N N N
 2 2 2 2 2
 1 1 1 1 1
 """
-num = int(input("Enter the Number = "))
-for i in range (num,0,-1):
-    for j in range (1,6):
-        print(i,end=(" "))
-    print()
+# num = int(input("Enter the Number = "))
+# for i in range (num,0,-1):
+#     for j in range (1,6):
+#         print(i,end=(" "))
+#     print()

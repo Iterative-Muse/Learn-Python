@@ -1,2 +1,0 @@
-print("Tushar Mandali"
-      "")

@@ -22,19 +22,20 @@ for i in range (i,a)
 
 Pass : Kuch nhi krta 
 """
-for i in range (1,11):
+
+for i in range(1, 11):
     print(i)
     if i == 5:
         break
 
-for i in range (1,11):
+for i in range(1, 11):
     print(i)
     if i == 5:
         continue
     print("OK")
     print("Done")
 
-for i in range (1,11):
+for i in range(1, 11):
     print(i)
     if i == 5:
         pass

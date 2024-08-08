@@ -22,41 +22,39 @@ Types of Datatype
 5.Bool : Boolean is just a value that contain True or False
 """
 
-x=55
+x = 55
 print(x)
 print(type(x))
-#Or 
-print(x,type(x))                #Integer. 
+# Or
+print(x, type(x))  # Integer.
 
-y=88.0
-print(y,type(y))                #Float
+y = 88.0
+print(y, type(y))  # Float
 
-z=True
-print(z,type(z))                #Boolean
+z = True
+print(z, type(z))  # Boolean
 
-name="Tushar Mandali"
-print(name,type(name))          #String
+name = "Tushar Mandali"
+print(name, type(name))  # String
 
 
-marks = [33,55,22,51]   
-print(marks,type(marks))        #List
+marks = [33, 55, 22, 51]
+print(marks, type(marks))  # List
 
-marks = (33,55,22,51)
-print(marks,type(marks))        #Tuple
+marks = (33, 55, 22, 51)
+print(marks, type(marks))  # Tuple
 
-marks = {"Tushar":89,"Yash":78,"Shruti":89}
-print(marks,type(marks))        #Dictionary
- 
+marks = {"Tushar": 89, "Yash": 78, "Shruti": 89}
+print(marks, type(marks))  # Dictionary
+
 ##############################################################################################################################################
 
-#Type Conversion and Type Casting : Convert Datatype to another datatype
+# Type Conversion and Type Casting : Convert Datatype to another datatype
 
-x="100.10"         #string Value
-y="200"
+x = "100.10"  # string Value
+y = "200"
 
-a=float(x)        #Converting to Integer
-b=int(y)
-z=a+b
-print(z,type(z))
-
-
+a = float(x)  # Converting to Integer
+b = int(y)
+z = a + b
+print(z, type(z))

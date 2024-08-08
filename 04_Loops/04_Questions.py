@@ -1,44 +1,44 @@
-#Q42. Ask a number from user. Print all the numbers from 1 to that number.
+# Q42. Ask a number from user. Print all the numbers from 1 to that number.
 # num = int(input("Enter the Number = "))
 # num += 1
 # for i in range (1,num):
 #     print(i,end=(" "))
 
 
-#Q43. Ask a number (N) from user. Print all the numbers from N to 1.
+# Q43. Ask a number (N) from user. Print all the numbers from N to 1.
 # num = int(input("Enter the Number = "))
 # for num in range(num,0,-1):
 #     print(num,end=(" "))
 
-#Q44. Ask start number and end number from user. Print all the numbers from start to end using while loop.
+# Q44. Ask start number and end number from user. Print all the numbers from start to end using while loop.
 # num1 = int(input("Enter the Starting Number = "))
 # num2 = int(input("Enter the Ending Number = "))
 # num2 += 1
 # for num1 in range(num1,num2):
 #     print(num1,end=" ")
 
-#Q45. Calculate the sum of all the numbers from 1 to 10.
+# Q45. Calculate the sum of all the numbers from 1 to 10.
 # sum = 0
 # for i in range(1,11):
 #     sum = sum + i
 # print(f"Sum of all the numbers from 1 to 10 is = {sum}")
 
-#Q46. Calculate product of all the numbers from 1 to 10.
+# Q46. Calculate product of all the numbers from 1 to 10.
 # prod = 1
 # for i in range(1,11):
 #     prod = prod * i
 # print(f"Product of all the numbers from 1 to 10 is = {prod}")
 
-#Q47. Calculate how many numbers are divisible by 7 from 1 to 100.
+# Q47. Calculate how many numbers are divisible by 7 from 1 to 100.
 # num = 0
 # for i in range(1,101):
 #     if i % 7 == 0:
 #         print(i,end=(" "))
 #         num += 1
 # print(f"\nThere are total {num} in 1 to 100 which is divisible by 7.")
-    
 
-#Q48. Calculate how many numbers are divisible by both 6 and 7 between 1 to 200.
+
+# Q48. Calculate how many numbers are divisible by both 6 and 7 between 1 to 200.
 # num = 0
 # for i in range(1,201):
 #     if i % 6 == 0 and i % 7 == 0:
@@ -47,14 +47,14 @@
 # print(f"\nThere are total {num} in 1 to 200 which is divisible by both 6 and 7.")
 
 
-#Q49. Write a program to calculate the sum of all the numbers divisible by 4 from 20 to 50.
+# Q49. Write a program to calculate the sum of all the numbers divisible by 4 from 20 to 50.
 # sum = 0
 # for i in range(20,51):
 #     if i % 4 == 0:
 #         sum = sum + i
 # print(f"The sum of all the numbers divisible by 4 from 20 to 50 is {sum}")
 
-#Q50. Calculate how many numbers are divisible by 6 and 7 between 1 to 200.
+# Q50. Calculate how many numbers are divisible by 6 and 7 between 1 to 200.
 # div_6 = 0
 # div_7 = 0
 # div_6and7 = 0
@@ -103,7 +103,7 @@ Output = 120
 
 # print(f"Factorial is {prod}.")
 
-#Q53. Ask to numbers x and y from the user. If x<y then print all the numbers from x to y, but if y<x then print all the numbers from y to x.
+# Q53. Ask to numbers x and y from the user. If x<y then print all the numbers from x to y, but if y<x then print all the numbers from y to x.
 # a = x = int(input("Enter the value of x = "))
 # b = y = int(input("Enter the value of y = "))
 # a += 1
